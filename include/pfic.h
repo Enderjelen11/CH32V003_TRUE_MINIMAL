@@ -15,3 +15,4 @@
 	__asm__ volatile ("li t0, 0x3");              \
 	__asm__ volatile ("csrw mtvec, t0");          \
 } while (0)
+

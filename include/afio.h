@@ -16,3 +16,4 @@
 	tmp |= ((uint32_t)((portcode) & 0x3U) << ((pin) * 2));   \
 	AFIO_EXTICR_REG = tmp;                                   \
 } while (0)
+
