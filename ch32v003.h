@@ -1,11 +1,11 @@
 #pragma once
-#include "reg_access.h"
-#include "rcc.h"
-#include "gpio.h"
-#include "afio.h"
-#include "exti.h"
-#include "pfic.h"
-#include "irq.h"
+#include "include/reg_access.h"
+#include "include/rcc.h"
+#include "include/gpio.h"
+#include "include/afio.h"
+#include "include/exti.h"
+#include "include/pfic.h"
+#include "include/irq.h"
 
 /* Composite helper for EXTI setup */
 #define SETUP_EXTI_PIN(pin, portcode, rise, fall, irqnum) do { \
